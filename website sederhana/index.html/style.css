@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center; /* Teks berada di tengah secara horizontal */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Teks berada di tengah secara vertikal */
+    align-items: center; /* Teks berada di tengah secara horizontal */
+    height: 100vh; /* Mengisi tinggi layar */
+}
+
+/* Header menjadi hitam */
+header {
+    background-color: #000000; /* Hitam */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center; /* Pastikan teks header di tengah secara horizontal */
+}
+
+button {
+    background-color: #000000; /* Warna hitam */
+    color: white;
+    padding: 10px 40px; /* Tambahkan lebih banyak padding horizontal untuk membuat tombol lebih panjang */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px; /* Membuat tombol menjadi oval */
+}
+
+button:hover {
+    background-color: #333333; /* Hitam lebih terang (abu-abu tua) saat hover */
+}
